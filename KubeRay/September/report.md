@@ -6,7 +6,7 @@
 
 ## Summary
 
-PR: 6 (4 merged, 2 in review, including 1 KubeRay docs PR in ray-project/ray, +1,311 / -50 lines across 27 files), Code Review: 0, Issue Discussion: 2
+PR: 6 (4 merged, 2 in review, including 1 KubeRay docs PR in ray-project/ray), Code Review: 0, Issue Discussion: 2
 
 ## PR
 
@@ -19,7 +19,7 @@ PR: 6 (4 merged, 2 in review, including 1 KubeRay docs PR in ray-project/ray, +1
 
 ### In Review
 
-- [[History Server] Bump Ray to 2.58.0 in examples and e2e test data #5363](https://github.com/ray-project/kuberay/pull/5363): bump the History Server examples and e2e test data to Ray 2.58, which fixes missing task logs on the task detail page, and remove the `time.sleep(2)` workaround from the e2e test data. Verified on kind that `taskLogInfo` in `TASK_LIFECYCLE_EVENT` is now complete and that the task and log e2e tests pass on 2.58 but fail on 2.56. Approved, part of [#5356](https://github.com/ray-project/kuberay/issues/5356).
+- [[History Server] Bump Ray to 2.58.0 in examples and e2e test data #5363](https://github.com/ray-project/kuberay/pull/5363): bump the History Server examples and e2e test data to Ray 2.58, which fixes missing task logs on the task detail page, and remove the `time.sleep(2)` workaround from the e2e test data. Verified on kind that `taskLogInfo` in `TASK_LIFECYCLE_EVENT` is now complete and that the task and log e2e tests pass on 2.58 but fail on 2.56. Approved by two reviewers (`lgtm`), part of [#5356](https://github.com/ray-project/kuberay/issues/5356).
 - [[History Server][CI] add unit tests for the list API filters #5238](https://github.com/ray-project/kuberay/pull/5238): add table-driven unit tests for query parsing and filtering in `historyserver/pkg/utils/filter.go`, raising its coverage from 0% to 98.8%. Part of [#5222](https://github.com/ray-project/kuberay/issues/5222).
 
 ## Code Review
